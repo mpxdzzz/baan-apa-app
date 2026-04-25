@@ -23,7 +23,7 @@ export default function BookingScreen() {
 
     try {
       const response = await fetch(
-        'https://YOUR_VERCEL_URL.vercel.app/api/booking',
+        'https://baan-apa-app.vercel.app/api/booking',
         {
           method: 'POST',
           headers: {
